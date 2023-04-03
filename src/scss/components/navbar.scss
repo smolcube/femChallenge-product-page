@@ -1,0 +1,72 @@
+@use '../util/' as *;
+
+.nav{
+    margin-inline: 163px ;
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px var(--light-gray-blue) solid;
+
+    @include breakpoint-down(medium){
+        margin:0 25px 0 25px;
+    }
+
+    &__left{
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+        column-gap: 17px;
+
+        &--btn{
+            display: none;
+            z-index: 1;}
+        
+        @include breakpoint-down(medium){
+            &--btn{
+                display: inline-block;
+
+            }
+        }
+
+     &--logo{margin-bottom: 5px;}
+
+        &--items a,li{ 
+            color: var(--gray-blue);
+            margin-right: rem(15);
+
+            @include breakpoint-down(medium){
+                display: none;
+            }
+        }
+
+        a:hover{
+            color: black;
+            border-bottom: 2px var(--orange) solid;
+        }
+    }
+
+    &__right{
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 18px;
+
+        &--avatar{
+            width: 50px;
+
+            &:hover{
+                border-radius: 50%;
+                border: 2px solid var(--orange);
+            }
+
+            @include breakpoint-down(medium){
+                width: 25px ;
+            }
+        }
+
+
+    }
+
+
+}
+

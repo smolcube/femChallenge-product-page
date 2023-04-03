@@ -1,0 +1,17 @@
+
+@use '../util/' as *;
+h1{
+    font-size: clamp(1.313rem, 1.048rem + 1.127vw, 2.063rem);
+}
+h2{
+    font-size: rem(22); 
+}
+span{
+    font-size: rem(12);
+    font-weight: 700;
+}
+
+p{
+    font-size: rem(13);
+    color: var(--gray-blue);
+}

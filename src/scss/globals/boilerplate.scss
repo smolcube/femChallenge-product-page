@@ -1,0 +1,30 @@
+
+*, *::before, *::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:100%;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--White);
+}
+
+img, button, input{
+    background: none;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+li{
+    height: max-content;
+    display: inline;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
