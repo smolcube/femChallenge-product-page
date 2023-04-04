@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/smolcube/femChallenge-product-page/static/css/main.0180b055.css",
+    "main.js": "/smolcube/femChallenge-product-page/static/js/main.ecfa4d59.js",
+    "static/media/logo.svg": "/smolcube/femChallenge-product-page/static/media/logo.4fe9c1e86cf9bf600f0c239f6a6e5317.svg",
+    "index.html": "/smolcube/femChallenge-product-page/index.html",
+    "static/media/icon-cart-btn.svg": "/smolcube/femChallenge-product-page/static/media/icon-cart-btn.b7f75d6e2cdaf801980a8baec7b69074.svg",
+    "static/media/icon-menu.svg": "/smolcube/femChallenge-product-page/static/media/icon-menu.c6107d03f1edcf73523ebd8cbc50a443.svg",
+    "static/media/icon-previous.svg": "/smolcube/femChallenge-product-page/static/media/icon-previous.80616402c611cc0a6651d0b751da8a9b.svg",
+    "static/media/icon-next.svg": "/smolcube/femChallenge-product-page/static/media/icon-next.9621183a551a9985b4bd7536c9a69c66.svg",
+    "main.0180b055.css.map": "/smolcube/femChallenge-product-page/static/css/main.0180b055.css.map",
+    "main.ecfa4d59.js.map": "/smolcube/femChallenge-product-page/static/js/main.ecfa4d59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0180b055.css",
+    "static/js/main.ecfa4d59.js"
+  ]
+}
